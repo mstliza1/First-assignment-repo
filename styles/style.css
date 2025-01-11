@@ -78,10 +78,6 @@ padding:14px 28px;
 .bg-color{
     background-color: rgb(236, 211, 211);
 }
-/* section style start  */
-
-
-
 
 /* shared style  */
 .digital-color{
@@ -233,6 +229,25 @@ box-shadow:0px 4px 4px 0px;
        }
 .image-gap{
 padding-right: 20px;
+}
+
+/* extra working start  */
+.extra{
+    display: flex;
+    background-color: #FFFFFF;
+    max-width:1280px;
+  margin:30px 90px 80px;
+  border-radius:24px;
+  padding-top:20px;
+  padding-bottom:110px;
+}
+.extra-img{
+    position: relative;
+    left:70px;
+    top:0px;
+    width:60px;
+    height:60px;
+    
 }
 
 
