@@ -72,10 +72,7 @@ padding:14px 28px;
     padding:24px 40px;
     margin:40px;
 }
-.pillar-title{
-    font-weight: bold;
-    font-size:20px;
-}
+
 /* shared style  */
 .bg-color{
     background-color: rgb(236, 211, 211);
@@ -100,17 +97,17 @@ padding:14px 28px;
 .section-title{
     font-size:30px;
     font-weight: bold;   
-    margin-left:60px;
+    margin-left:90px;
 }
 .visions-description{
-    margin-left:60px;
+    margin-left:90px;
    
 }
 .vision-container{
     display: flex;
     justify-content: space-around;
     gap:24px;
-    margin:20px 40px;  
+    margin:20px 90px;  
 }
 .vision-title{
     text-align: center;
@@ -151,6 +148,14 @@ border-radius:24px ;
  }
 
 /* parent style start  */
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size:40px;
+}
+.donate-description{
+    margin-left:135px;
+}
 .parent{
     padding:30px 100px;
    
