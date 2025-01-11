@@ -23,7 +23,6 @@ nav{
    border:1px solid  #006A50;
    border-radius:8px;
 padding:14px 28px;
-border: none;
 }
 
 /* banner title start */
@@ -144,19 +143,78 @@ color:#0E0E0E ;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   background-color:#F7EBCF;
+   background-color:#FFFFFF;
    border-radius:24px;
    box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
    padding:40px 50px;
    gap:26px;
+   margin:30px 0px;
 }
  .img-size{
 width:350px;
 border-radius:24px ;
  }
- 
 
-
+/* parent style start  */
+.parent{
+    padding:30px 100px;
+   
+ display: flex;
+ justify-content: space-around;
+}
+.child-1{
+padding:20px;
+margin: 10px 0;
+font-size:40px;
+font-weight:bold;
+border-radius:16px;
+box-shadow:0px 4px 4px 0px;
+}
+.child-2{
+     padding:20px;
+    margin: 10px 0;
+    font-size:40px;
+    font-weight:bold;
+    border-radius:16px;
+    box-shadow:0px 4px 4px 0px;
+    background-color: rgb(224, 233, 241);
+    }
+    .child-3{
+        box-shadow:0px 4px 4px 0px;
+        padding:20px;
+        margin: 10px 0;
+        font-size:40px;
+        font-weight:bold;
+        border-radius:16px;
+        background-color: #C6E4D6;
+        
+        }
+        .child-4{
+            padding:20px;
+            margin: 10px 0;
+            font-size:40px;
+            font-weight:bold;
+            border-radius:16px;
+            box-shadow:0px 4px 4px 0px;
+            background-color: antiquewhite;
+            }
+            .btn-child{
+                width:1032px;
+                    height:70px;
+                margin:30px 130px 80px;
+                background-color:white;
+                border: none;
+               
+            }
+            .btn-description{
+                font-size:20px;
+                color:hsl(240, 19%, 68%);
+            }
+            /* shared style  */
+            .text-center{
+    text-align: center;
+            }
+       
 
 
 
