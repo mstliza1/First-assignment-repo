@@ -10,7 +10,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0px 160px;
+    margin:0px 100px;
+    max-width:1200;
 }
 .nav-title{
     font-weight: bold;
@@ -65,31 +66,25 @@ padding:14px 28px;
 
 }
 
+.pillar-container{
+    display: flex;
+    gap: 24px;
+    padding:24px 40px;
+    margin:40px;
+}
+.pillar-title{
+    font-weight: bold;
+    font-size:20px;
+}
 /* shared style  */
 .bg-color{
-    background-color: gray;
+    background-color: rgb(236, 211, 211);
 }
 /* section style start  */
-.container{
-    display: flex;
-    gap:34px;
-box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
-border-radius:8px;
-}
-.section-title{
-    font-size:40px;
-    font-weight: bold;   
-}
-.section-img{
-    width:60px;
-}
-.section-sub-title{
-    font-size:20px;
-    font-weight:20px;
-}
-.section-description{
-    font-size:16px;
-}
+
+
+
+
 /* shared style  */
 .digital-color{
     background-color:#abc9f1;
@@ -102,14 +97,20 @@ border-radius:8px;
     background-color: #F7EBCF;
 }
 /* vision style start  */
-.vision-description{
-color:#0E0E0E ;
+.section-title{
+    font-size:30px;
+    font-weight: bold;   
+    margin-left:60px;
+}
+.visions-description{
+    margin-left:60px;
+   
 }
 .vision-container{
     display: flex;
     justify-content: space-around;
     gap:24px;
-    
+    margin:20px 40px;  
 }
 .vision-title{
     text-align: center;
@@ -122,10 +123,7 @@ color:#0E0E0E ;
         border-radius:8px;
         padding:10px 20px ;
         border: none;
-
-
 }
-
 /* button color style  */
 .learn-color{
     background-color:#5490F5;
@@ -136,9 +134,6 @@ color:#0E0E0E ;
 .Learn-color{
     background-color:#FFC239;
 } 
-
-
-
 .Satellite{
     display: flex;
     justify-content: space-between;
@@ -148,7 +143,7 @@ color:#0E0E0E ;
    box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
    padding:40px 50px;
    gap:26px;
-   margin:30px 0px;
+   margin:30px 100px;
 }
  .img-size{
 width:350px;
@@ -209,12 +204,30 @@ box-shadow:0px 4px 4px 0px;
             .btn-description{
                 font-size:20px;
                 color:hsl(240, 19%, 68%);
+            
             }
             /* shared style  */
             .text-center{
     text-align: center;
-            }
-       
+    }
+          
+       .footer{
+    text-align: center;
+    background-color: #C6E4D6;
+    margin:80px 150px;
+    padding: 50px 200px ;
+    border-radius:24px;
+       }
+       .input-type{
+        width: 400px;
+        height:30px;
+       }
+       .image-foot{
+      text-align: center;
+       }
+.image-gap{
+padding-right: 20px;
+}
 
 
 
